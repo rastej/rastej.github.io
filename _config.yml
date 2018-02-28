@@ -1,2 +1,3 @@
 name: Rastislav Urbán
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
