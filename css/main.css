@@ -1,8 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-	background: #000531 url("C:\Users\Rastislav\Pictures\Pozadia\golfgti.jpg") no-repeat center center;
-	background-size: cover;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';

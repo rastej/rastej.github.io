@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html ⚡ lang="en">
-  {% include head.html %}
-  <body>
-    {% include header.html %}
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			<img src="golfgti.jpg" alt="Golf Gti" width="128" height="128">
 
-    {{ content }}
-
-    {% comment %}
-        {% include analytics.html %}
-    {% endcomment %}
-  </body>
-</html>
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:rastej.urban@gmail.com">erail</a></li>
+	        		<li><a href="https://github.com/rastej">github.com/rastej</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
