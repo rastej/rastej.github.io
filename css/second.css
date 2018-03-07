@@ -1,7 +1,7 @@
 body {
-    margin: 60px auto;
+   /* margin: 60px auto;*/
     width: 100%;
-/*    background-color: black;*/
+   background-color: black;
 }
 .site-header {
 /*  position: fixed;*/
