@@ -4,4 +4,4 @@ gitpage: github.com/rastej
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:titleä
 collections:
-- kolekcia1
+- posts
