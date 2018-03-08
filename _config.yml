@@ -1,3 +1,5 @@
 name: Rastislav Urbán
+email: rastej.urban@gmail.com
+gitpage: github.com/rastej
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:titleä
