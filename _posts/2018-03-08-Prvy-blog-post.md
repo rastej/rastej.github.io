@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prvý blog post"
-author: Rastislav Urbán"
+author: "Rastislav Urbán"
 date: 2018-03-08
 ---
 
