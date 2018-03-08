@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Prvý blog post"
+title: "Druhý blog post"
 author: "Rastislav Urbán"
-date: 2018-03-08
+date: 2018-03-07
 ---
 Druhy post. 
