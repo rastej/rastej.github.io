@@ -3,8 +3,11 @@ layout: page
 title: Hobby
 ---
 {% for hobby in site.hobbies %}
+	<center>
 	<div class="hobby">
-			{{ hobby.content }}
-		<h2><img src="{{ hobby.image_path }}" alt="{{ hobby.title }} width="150"  height="auto"/>{{ hobby.title }}</h2>
+		<!--	{{ hobby.content }}></-->
+		<h3> {{ hobby.title }}</h3>
+		<h2><img src="{{ hobby.image_path }}" alt="{{ hobby.title }} width="auto"  height="50"/></h2>
 	</div>
+	</center>
 {% endfor %}

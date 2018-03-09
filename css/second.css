@@ -1,7 +1,9 @@
 body {
     margin: 60px auto;
-    width: 100%;
-  /* background-color: white;*/
+    width: 70%;
+	/*background-image: "https://rastej.github.io/images/golfgti.jpg";
+	background-color: #cfffff;
+   background-color: red;*/
 }
 .site-header {
 /*  position: fixed;*/

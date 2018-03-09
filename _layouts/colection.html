@@ -1,30 +1,38 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <nav class="main-nav">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/hobby">Hobby</a></li>
-            <li><a href="/blog">Blog</a></li>
-          </ul>
-        </nav>
-        <h1>Moje Hobby</h1>
-      </div>
-    </header>
-    <div class="content">
-	{{ content }}
-    </div>
-    <footer>
-      <div class="container">
-      </div>
-    </footer>
-  </body>
-</html>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/second.css">
+		</head>
+		<style>
+		html {
+		background:url("https://wallpapercave.com/wp/wp2282753.jpg") no-repeat center center fixed;
+		-webkit-background-size:cover;
+		background-size:cover;
+		background-color: #cccccc;
+		}
+		</style>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+					<li><a href="/hobby">Hobby</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:{{ site.email }}">email</a></li>
+	        		<li><a href="https://github.com/rastej">{{ site.gitpage }}</a></li>
+			</ul>
+			</footer>
+		</body>
+	</html>
