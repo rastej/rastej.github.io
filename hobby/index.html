@@ -1,0 +1,10 @@
+---
+layout: colection
+title: Hobby
+---
+{% for hobby in site.hobby %}
+	<div class="hobby">
+		<h2><img src="{{ hobby.image_path }}" alt="{{ hobby.title }} />{{ cookie.title }}</h2>
+		{{ hobby.content }}
+	</div>
+{% endfor %}
