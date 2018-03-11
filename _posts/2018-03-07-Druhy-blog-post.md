@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Druhý blog post"
+title: "Druhý"
 author: "Rastislav Urbán"
 date: 2018-03-07
 ---

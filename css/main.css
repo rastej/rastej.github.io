@@ -42,3 +42,10 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+.hobby img {
+  width: 77px;
+  border-radius: 68px;
+  position: relative;
+  left: -18px;
+  top: 15px;
+}

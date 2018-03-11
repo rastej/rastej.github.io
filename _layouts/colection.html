@@ -20,7 +20,6 @@
 		        	<li><a href="/about">About</a></li>
 	        		<li><a href="/cv">CV</a></li>
 	        		<li><a href="/blog">Blog</a></li>
-					<li><a href="/hobby">Hobby</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
@@ -28,11 +27,6 @@
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:{{ site.email }}">email</a></li>
-	        		<li><a href="https://github.com/rastej">{{ site.gitpage }}</a></li>
-			</ul>
-			</footer>
+			{% include footer.html %}
 		</body>
 	</html>
