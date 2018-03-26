@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tretí"
+title: "Správa k zadaniu 2"
 author: "Rastislav Urbán"
 date: 2018-03-26
 ---
