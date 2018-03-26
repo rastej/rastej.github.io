@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Tretí"
+author: "Rastislav Urbán"
+date: 2018-03-26
+---
+
+V zadaní č. 2 som editoval súbory mojabp.xml, thesis.xsl a thesis-tp-fo.xsl. V súbore thesis.xsl som na riadku 176 dopísal figure, aby sa automaticky generoval zoznam obrázkov. Taktiež som na riadku 203 nastavil formát textu pod obrázok na italic. V súbore thesis-tp-fo.xsl som na riadku 47 vložil obrázok, ktorý sa zobrazuje na úvodnej stranke a zmenil som rolu z pôvodnej šablóny na cvičiaci, riadok 53.
+V súbore mojabp.xml som na piatom riadku zmenil jazyk na "sk". Pri vymenúvaní rôznych elementov som používal itemizedlist kde jednotlivý element je ohraničený listitem-om, napr. riadok 52 až 66. Tento list dá pred každý element plnú bodku, pri hlbšom vnáraní by sa mali symboli meniť, ale toto mi nefungovalo. Úplne rovnaké použitie má orderedlist, ktorý ale namiesto bodiek iteruje nad listom, či už číslami, alebo ak je vnorený tak písmenami, napr. riadok 92 až 105. V tejto sekcí som použil aj link linkend="something", na odkazovanie sa na "something" ďalej v texte. Aby som sa mohol na to miesto odkázať, musel som danej sekcí prideliť id="something". Takto isto funguje aj odkazovanie na obrázky, ale nenašiel som vhodné využitie. Register pojmov som vytvoril pomocou indexterm, napr  <indexterm class="startofrange" id="objekty.login"> a primary secondary a tertiary líní. Asi som nezvolil úplne vhodné veci ako pojmy bolo to ťažké v mojom texte, ale chcel som aspoň ukázať že chápem funkcionalite. Obrázok som zobrazil pomocou figure, mediaobject, imageobject a imagedata, napr. 605 až 612. Poznámku pod čiarou som urobil pomocou footnote, napr. riadok 72 na ktorom je aj odkazovanie na položku z bibliografie pomocou xref linked. Formát textu som upravoval pomocou emphasis na bold, riadok 377. Na vypísanie vecí zložitejších na formátovanie som použil literallayout, napr. riadok 522.   
